@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="377dp"
+        android:layout_height="110dp"
+        android:text="DECIMAL TO BINARY CONVERSION APP" />
+
+
+    <EditText
+        android:id="@+id/editTextOne"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Enter Decimal for conversion"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/convertBtn"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/textViewOne"
+        android:layout_width="375dp"
+        android:layout_height="110dp"
+        android:text="Binary Output Cell" />
+
+
+</LinearLayout>
+
